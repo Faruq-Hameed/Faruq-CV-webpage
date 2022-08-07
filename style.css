@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(116, 184, 180);
+}
+
+.upper-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    row-gap: 30px;
+    background-color: rgb(225, 252, 243);
+}
+
+.cloud{
+    width: 30%;
+    height: 15%;
+}
+
+
+.upper-container>*:first-child{
+    align-self: flex-end;
+    position: relative;
+    top: 40px;
+    left: 15%;
+}
+
+.am-faruq-div{
+    font-family: 'Sacramento', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.i-am-a-dev-div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upper-container>*:nth-child(4) {
+    align-self:center;
+    position: relative;
+    right: 100px;
+}
+
+.upper-container>*:nth-child(5) {
+    position: relative;
+    bottom: 0px;
+    align-self: center;
+    width: 30%;
+    height: 15%;
+   
+}
+
+.mountain{
+ height: 40%;
+ width: 120%;
+ border-radius: 50%;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faruq-imag{
+    position: relative;
+    top: 8rem;
+}
+
+#my-photo{
+    border-radius: 50%;
+}
+
+.hi-div{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    margin-bottom: 15rem;
+    width: 40%;
+    font-size: 15px;
+}
+
+.hi-description {
+    color: rgb(55, 66, 59);
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.my-skills-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    height: 200px;
+    width: 500px;
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 25px;
+    
+}
+
+.skils-sub{
+    font-family:'Merienda', sans-serif;
+    position: relative;
+    top: 5px;
+    left: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: rgb(19, 76, 19);
+}
+
+.skill-icon{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.project-done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    height: 340px;
+    width: 500px;
+    font-size: 20px;
+    word-spacing: 8px;
+    line-height: 25px;
+}
+
+.project{
+    margin-left: -50px;
+}
+
+.project-icon{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.freelance{
+    font-family: '', sans-serif;
+}
+
+.last-sec-text, .skill-text{
+    color: rgb(55, 66, 59);
+}
+
+.btn{
+    width: 8rem;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(64, 193, 193);
+}
+
+.footer-div{
+    height: 150px;
+    color: rgb(34, 133, 199);
+    margin-top: 10px;
+    background-color: rgb(64, 193, 193);
+    position: relative;
+    display: flex;
+}
+.foot{
+    color: white;
+    text-decoration: underline;
+    margin-left: 8%;
+}
+
+.foot2{
+    display: flex;
+    position: relative;
+    top: 35px;
+    right: 47%;
+    color: white;
+}
+
+.copyright{
+    color: white;
+    position: relative;
+    width: fit-content;
+}
+
+.bottom-container{
+    background-color: rgb(64, 193, 193);
+color: white;
+}
+
+a:hover{
+    color: black;
+    background-image: linear-gradient(360deg, white, green);
+    width: 10rem;
+    cursor: progress;
+}
+
+i{
+    color: rgb(49, 132, 214);
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30pxs;
+    border: none;
+   border-bottom:2px dotted rgb(80, 117, 80);
+   width: 30px;
+   margin-left: 15rem;
+
+}
